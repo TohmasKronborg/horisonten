@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+
+  <title>Horisonten | Praktisk Information</title>
+
+  <meta name="robots" content="All">
+  <meta name="author" content="Udgiver">
+  <meta name="copyright" content="Information om copyright">
+
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="mx-auto bg-black">
+  <!-- Nav -->
+  <nav class="bg-black nav d-flex justify-content-between">
+    <a href="index.html" class="d-flex align-items-center justify-content-center">
+      <img src="images/LogoWhite.png" alt="brandLogo" class="navbar-brand m-2 ms-3">
+      <span class="h1 text-white my-auto">Horisonten</span>
+    </a>
+
+    <!-- Offcanvas -->
+    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#navOffcanvas" aria-controls="offcanvasRight">
+      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.83333 25.8854C5.83333 25.5953 5.94857 25.3171 6.15369 25.112C6.3588 24.9069 6.637 24.7917 6.92708 24.7917H28.8021C29.0922 24.7917 29.3704 24.9069 29.5755 25.112C29.7806 25.3171 29.8958 25.5953 29.8958 25.8854C29.8958 26.1755 29.7806 26.4537 29.5755 26.6588C29.3704 26.8639 29.0922 26.9792 28.8021 26.9792H6.92708C6.637 26.9792 6.3588 26.8639 6.15369 26.6588C5.94857 26.4537 5.83333 26.1755 5.83333 25.8854ZM5.83333 17.1354C5.83333 16.8453 5.94857 16.5671 6.15369 16.362C6.3588 16.1569 6.637 16.0417 6.92708 16.0417H28.8021C29.0922 16.0417 29.3704 16.1569 29.5755 16.362C29.7806 16.5671 29.8958 16.8453 29.8958 17.1354C29.8958 17.4255 29.7806 17.7037 29.5755 17.9088C29.3704 18.1139 29.0922 18.2292 28.8021 18.2292H6.92708C6.637 18.2292 6.3588 18.1139 6.15369 17.9088C5.94857 17.7037 5.83333 17.4255 5.83333 17.1354ZM5.83333 8.38541C5.83333 8.09533 5.94857 7.81713 6.15369 7.61201C6.3588 7.40689 6.637 7.29166 6.92708 7.29166H28.8021C29.0922 7.29166 29.3704 7.40689 29.5755 7.61201C29.7806 7.81713 29.8958 8.09533 29.8958 8.38541C29.8958 8.67549 29.7806 8.95369 29.5755 9.1588C29.3704 9.36392 29.0922 9.47916 28.8021 9.47916H6.92708C6.637 9.47916 6.3588 9.36392 6.15369 9.1588C5.94857 8.95369 5.83333 8.67549 5.83333 8.38541Z" fill="#F0F8FF"/>
+      </svg>
+    </button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="navOffcanvas" aria-labelledby="navOffcanvas">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body flex-center-column text-center fs-1 fw-black">
+        <a href="index.html" class="text-black">Forside</a>
+        <a href="program.html" class="text-black">Program</a>
+        <a href="billet.html" class="text-black">Billetter</a>
+        <a href="praktiskinfo.html" class="text-black">Praktisk Information</a>
+        <a href="omos.html" class="text-black">Om os</a>
+        <a href="baeredygtighed.html" class="text-black">Bæredygtighed</a>
+      </div>
+    </div>
+  </nav>
+
+  <aside class="text-white text-center my-5 mx-3">
+    <h1>Praktisk information</h1>
+    <p>Festivaller kan være et uforudsigeligt sted og vi vil helst gerne have at alle har en god oplevelse. Så her er der noget praktisk information, til at forhåbentligt at gøre det nemmere for dig. </p>
+  </aside>
+
+  <article class="container">
+    <div class="accordion" id="accordion1">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            Parkering
+          </button>
+        </h2>
+        <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordion1">
+          <div class="accordion-body">
+            <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </article>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
