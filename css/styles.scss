@@ -1,8 +1,15 @@
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Sedgwick+Ave+Display&display=swap');
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
+$black: #1c1c1c;
+$white: #F0F8FF;
+$primary: #0DB9F2;
+$secondary: #F63AC1;
+$info: #3AF6C0;
+
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -18,3 +25,16 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+body{
+	font-family: "Figtree", sans-serif;
+	color: #1c1c1c;
+	max-width: 768px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Sedgwick Ave Display", sans-serif;
+}
+
+.navbar-brand{
+	max-height: 50px;
+}
