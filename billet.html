@@ -131,13 +131,13 @@
             </div>
 
             <!-- Cart Footer / Total -->
-            <div class="border-top p-3 bg-light">
-                <div class="d-flex justify-content-between align-items-center mb-2">
+            <div class="border-top p-3 bg-black">
+                <div class="d-flex text-white justify-content-between align-items-center mb-2">
                     <strong>Total:</strong>
                     <strong id="cartTotal">0.-</strong>
                 </div>
 
-                <button class="btn btn-primary w-100">
+                <button id="buy" class="btn btn-primary w-100 fw-bold text-white">
                     Gå til betaling
                 </button>
             </div>
@@ -200,12 +200,17 @@
     </footer>
 
 <script>
-    const itemsContainer = document.getElementById("cartItems");
-    const totalDisplay = document.getElementById("cartTotal");
-    const emptyMessage = document.getElementById("emptyMessage");
+    const itemsContainer = document.querySelector("#cartItems");
+    const totalDisplay = document.querySelector("#cartTotal");
+    const emptyMessage = document.querySelector("#emptyMessage");
+    const buyBtn = document.querySelector("#buy")
 
     let total = 0;
 
+    buyBtn.addEventListener("click", () => {
+        window.location.href = "index.html"
+        alert("Tak for dit køb")
+    })
     function updateTotalDisplay() {
         totalDisplay.textContent = total + ".-";
     }
