@@ -178,9 +178,9 @@
 	<section class="bg-black text-center py-3">
 		<div class="mb-3">
 			<h1 class="text-white">Seneste Nyt</h1>
-			<p class="text-white">Følgende kunstnere kan nu ses i <br> <span class="h1 text-primary">Horisonten</span></p>
+			<p class="text-white">Følgende kunstnere kan nu ses i<br>Horisonten</p>
 		</div>
-		<div id="carouselExampleFade" class="carousel slide carousel-fade">
+		<div id="carouselExampleFade" class="carousel slide carousel-fade px-4">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img src="images/zarPaulo.png" class="d-block w-100" alt="Zar Paulo">
@@ -210,7 +210,7 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-		<a href="program.html" class="btn btn-secondary text-white fw-bold my-5">Læs mere</a>
+		<a href="program.html" class="btn btn-secondary text-white fw-bold my-3 mt-4">Læs mere</a>
 	</section>
 	<div class="gradients-reverse"></div>
 
@@ -246,8 +246,43 @@
 	</div>
 
 	<!-- Om os (tror jeg ændre hvad der skal være her) -->
+	<article class="bg-black">
+		<div class="gradients"></div>
 
+		<div class="container py-5 text-white">
+			<div class="row">
+				<h1 class="text-center">Kort om os</h1>
+				<img src="images/himmel.png" alt="tilfældigt foto" class="img-fluid px-4">
+				<p class="text-center mt-4">
+					Udover en aktuel horisont, er vi en nyere festival som stræber efter at skabe en mere velkomne
+					oplevelse for alle. Selv for dem som typisk ikke er med til festivaller, eller dem der aldrig har
+					været med til en festival før.
+				</p>
+				<a href="omos.html" class="btn btn-info w-25 text-white mx-auto">Læs mere</a>
+			</div>
+		</div>
+
+		<div class="gradients-reverse"></div>
+	</article>
 	<!-- Form til besked om billet salg -->
+	<section class="container py-5 px-4">
+		<h1 class="text-center">Vær den første til at høre om ledige billetter</h1>
+		<form>
+			<div class="mb-3">
+				<label for="name" class="form-label">Navn <span class="text-danger">*</span></label>
+				<input type="text" class="form-control" id="name" placeholder="Indtast dit navn" required>
+			</div>
+			<div class="mb-3">
+				<label for="email" class="form-label">Email adresse <span class="text-danger">*</span></label>
+				<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Indtast din Email" required>
+			</div>
+			<div class="mb-3 form-check">
+				<input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+				<label class="form-check-label" for="exampleCheck1">Du giver ikke samtykke til at modtage 1-2 mails om måneden med nyheder og markedsføringsindhold fra Fonden Horisonten og Foreningen Horisonten om deres aktiviteter. Du kan måske afmelde via et link i bunden af en mail.</label>
+			</div>
+			<button type="submit" class="btn btn-primary text-white">Indsend</button>
+		</form>
+	</section>
 
 	<!-- footer -->
 	<footer class="text-white bg-black pb-4">
