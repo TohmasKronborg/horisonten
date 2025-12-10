@@ -35,6 +35,10 @@ h1,h2,h3,h4,h5,h6{
 	font-family: "Sedgwick Ave Display", sans-serif;
 }
 
+.tihi{
+
+}
+
 .fw-black{
 	font-weight: 900;
 }
@@ -130,6 +134,7 @@ h1,h2,h3,h4,h5,h6{
 	100% { background-position: 100% 0; }
 }
 
+// Tickets
 .ticketCard{
 	position: relative;
 	background: #F0F8FF;
@@ -159,7 +164,6 @@ h1,h2,h3,h4,h5,h6{
 	z-index: -1;
 	border-radius: 10px;
 
-	/* Expand background beyond the card by 15px on all sides */
 	width: calc(100% + 10px);
 	height: calc(100% + 10px);
 
