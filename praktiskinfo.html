@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Horisonten | Praktisk Information</title>
+  <title>Horisonten | Praktisk information</title>
 
   <meta name="robots" content="All">
   <meta name="author" content="Udgiver">
@@ -15,6 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="mx-auto bg-black">
+
   <!-- Nav -->
   <nav class="bg-black nav d-flex justify-content-between">
     <a href="index.html" class="d-flex align-items-center justify-content-center">
@@ -49,22 +50,109 @@
     <p>Festivaller kan være et uforudsigeligt sted og vi vil helst gerne have at alle har en god oplevelse. Så her er der noget praktisk information, til at forhåbentligt at gøre det nemmere for dig. </p>
   </aside>
 
-  <article class="container">
-    <div class="accordion" id="accordion1">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-            Parkering
-          </button>
-        </h2>
-        <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordion1">
-          <div class="accordion-body">
-            <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
+  <!-- Accordion -->
+  <main class="accordion accordion-flush px-3 mb-4" id="horisontenFAQ">
+
+    <!-- Parkering -->
+    <div class="accordion-item mb-3 ticketCard2 rounded-3">
+      <h2 class="accordion-header" id="headingPark">
+        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePark" aria-expanded="false" aria-controls="collapsePark">
+          Parkering
+        </button>
+      </h2>
+      <div id="collapsePark" class="accordion-collapse collapse" aria-labelledby="headingPark" data-bs-parent="#horisontenFAQ">
+        <div class="accordion-body">
+          Parkering findes ved festivalens udkant. Følg de opstillede skilte og personalets anvisninger, så kommer du hurtigt og sikkert på plads.
         </div>
       </div>
     </div>
-  </article>
+
+    <!-- Må ikke medbringes -->
+    <div class="accordion-item mb-3 ticketCard2 rounded-3">
+      <h2 class="accordion-header" id="headingNoBring">
+        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNoBring" aria-expanded="false" aria-controls="collapseNoBring">
+          Må ikke medbringes
+        </button>
+      </h2>
+      <div id="collapseNoBring" class="accordion-collapse collapse" aria-labelledby="headingNoBring" data-bs-parent="#horisontenFAQ">
+        <div class="accordion-body">
+          Glasflasker, våben, fyrværkeri og andre potentielt farlige genstande er ikke tilladt. Det hjælper os med at holde festivalen tryg og behagelig for alle.
+        </div>
+      </div>
+    </div>
+
+    <!-- Bade -->
+    <div class="accordion-item mb-3 ticketCard2 rounded-3">
+      <h2 class="accordion-header" id="headingBade">
+        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBade" aria-expanded="false" aria-controls="collapseBade">
+          Bade
+        </button>
+      </h2>
+      <div id="collapseBade" class="accordion-collapse collapse" aria-labelledby="headingBade" data-bs-parent="#horisontenFAQ">
+        <div class="accordion-body">
+          Der er adgang til badefaciliteter hele dagen. Vær forberedt på lidt kø i travle perioder, men vi gør vores bedste for at holde området rent og funktionelt.
+        </div>
+      </div>
+    </div>
+
+    <!-- Toiletter -->
+    <div class="accordion-item mb-3 ticketCard2 rounded-3">
+      <h2 class="accordion-header" id="headingToilet">
+        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseToilet" aria-expanded="false" aria-controls="collapseToilet">
+          Toiletter
+        </button>
+      </h2>
+      <div id="collapseToilet" class="accordion-collapse collapse" aria-labelledby="headingToilet" data-bs-parent="#horisontenFAQ">
+        <div class="accordion-body">
+          Toiletterne er placeret flere steder på pladsen. Brug dem, som de er tænkt, og giv dem gerne et ekstra blik, når du forlader dem—det hjælper alle.
+        </div>
+      </div>
+    </div>
+
+    <!-- Specialkost -->
+    <div class="accordion-item mb-3 ticketCard2 rounded-3">
+      <h2 class="accordion-header" id="headingDiet">
+        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDiet" aria-expanded="false" aria-controls="collapseDiet">
+          Specialkost
+        </button>
+      </h2>
+      <div id="collapseDiet" class="accordion-collapse collapse" aria-labelledby="headingDiet" data-bs-parent="#horisontenFAQ">
+        <div class="accordion-body">
+          Flere madboder tilbyder vegetariske, veganske og allergivenlige alternativer. Spørg de enkelte boder, hvis du har specifikke behov, så guider de dig på rette vej.
+        </div>
+      </div>
+    </div>
+
+    <!-- Når du har brug for hjælp -->
+    <div class="accordion-item mb-3 ticketCard2 rounded-3">
+      <h2 class="accordion-header" id="headingHjaelp">
+        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHjaelp" aria-expanded="false" aria-controls="collapseHjaelp">
+          Når du har brug for hjælp
+        </button>
+      </h2>
+      <div id="collapseHjaelp" class="accordion-collapse collapse" aria-labelledby="headingHjaelp" data-bs-parent="#horisontenFAQ">
+        <div class="accordion-body">
+          Vagter og frivillige står klar over hele pladsen. Henvend dig endelig, hvis du bliver i tvivl om noget, føler dig utilpas eller bare har brug for hjælp til at finde rundt.
+        </div>
+      </div>
+    </div>
+
+    <!-- Camping -->
+    <div class="accordion-item ticketCard2 rounded-3">
+      <h2 class="accordion-header" id="headingCamping">
+        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCamping" aria-expanded="false" aria-controls="collapseCamping">
+          Camping
+        </button>
+      </h2>
+      <div id="collapseCamping" class="accordion-collapse collapse" aria-labelledby="headingCamping" data-bs-parent="#horisontenFAQ">
+        <div class="accordion-body">
+          Campingområdet giver plads til både telte og campingvogne. Husk at holde orden, respektere fællesarealer og tage hensyn til dine naboer — det giver den bedste oplevelse for alle.
+        </div>
+      </div>
+    </div>
+
+  </main>
+
 
   <!-- footer -->
   <footer class="text-white bg-black pb-4">
