@@ -108,11 +108,6 @@ h1,h2,h3,h4,h5,h6{
 	flex-shrink: 0;
 }
 
-@keyframes gradientScroll {
-	0% { background-position: 0 0; }
-	100% { background-position: 100% 0; }
-}
-
 .gradients-reverse {
 	background: linear-gradient(90deg, #3AF6C0, #0DB9F2, #F63AC1);
 	background-size: 300% 100%; /* make it wide enough to scroll */
